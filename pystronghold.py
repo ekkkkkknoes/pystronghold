@@ -76,7 +76,8 @@ def main():
     pointb = WorldPoint((float(input("Point b, x: ")),
                          float(input("Point b, z: "))),
                         float(input("Point b, angle: ")))
-    print("x: {:.0f}, z: {:.0f}".format(*findstronghold(pointa, pointb)))
+    print("x: {:.0f}, z: {:.0f}\n".format(*findstronghold(pointa, pointb)))
+    input("Press enter to exit...")
 
 
 if __name__ == "__main__":
